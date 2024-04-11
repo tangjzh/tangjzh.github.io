@@ -114,5 +114,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Jinzhou Tang is a student of intelligent science and technology at the HCP Lab. His research interests include Deep Learning, Computer Vision and Robotics. He serves as a research assistant in the Robotic research group at the HCP Lab, supervised by [Xiaodan Liang](https://lemondan.github.io/).
 {style="text-align: justify;"}
