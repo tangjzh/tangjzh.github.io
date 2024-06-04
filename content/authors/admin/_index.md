@@ -47,12 +47,12 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: PyTorch
         description: ''
-        percent: 100
+        percent: 90
         icon: chart-line
         icon_pack: fas
       - name: SQL
