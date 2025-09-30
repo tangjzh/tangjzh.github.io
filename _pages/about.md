@@ -13,6 +13,6 @@ I'm a Master's in Computer Science at UC San Diego. I graduated from Sun Yat-Sen
 
 ## Research Interests
 
-I'm interested in AI & Robotics, especially for the social behaviors and interactions of embodied agents. I'm currently exploring **Long-term Memory, Humanoid Loco-manipulation, Spatial Intelligence, Social Intelligence and Agentic System** to pave my way to Emotional Humanoind Robots.
+I'm interested in AI & Robotics, especially for the social behaviors and interactions of embodied agents. I'm currently exploring **Long-term Memory, Humanoid Loco-manipulation, Spatial Intelligence, Social Intelligence and Agentic System** to pave my way to Emotional Humanoid Robots.
 
 I'm seeking unified approch and mathematical framework to model the consistency of self-awareness, which may lies in the combination of embodiment, personal memory and world model.
