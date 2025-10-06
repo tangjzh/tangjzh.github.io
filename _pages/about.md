@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+> *Only the children know what they are looking for. They waste their time over a rag doll and it becomes very important to them; and if anybody takes it away from them, they cry…*
+>
+> <p align="right">— Le Petit Prince</p>
+
 I'm a Master's in Computer Science at UC San Diego. I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz979.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
 
 <font color="red">I'm looking for research oppertunity and internship, please contact me through my </font>[email](mailto:jit027@ucsd.edu).
