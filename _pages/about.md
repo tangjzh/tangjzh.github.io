@@ -11,12 +11,12 @@ redirect_from:
 >
 > <p align="right">— Le Petit Prince</p>
 
-I'm a Master's in Computer Science at UC San Diego. I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz979.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
+I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Huang](https://biweihuang.com/) and [Prof. Zhiting Hu](https://zhiting.ucsd.edu/). I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz979.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
 
-<font color="red">I'm looking for research opportunity and internship, please contact me through my </font>[email](mailto:jit027@ucsd.edu).
+<!-- <font color="red">I'm looking for research opportunity and internship, please contact me through my </font>[email](mailto:jit027@ucsd.edu). -->
 
 ## Research Interests
 
-I'm interested in Machine Learning, Computer Vision and Robotics, especially for the social behaviors and interactions of embodied agents. I'm currently exploring **Long-term Memory, Humanoid Loco-manipulation, Spatial Intelligence and AI Agent** to pave my way to General Humanoid Robots. Specifically, my research focuses on closed-loop visuomotor system that can produce long-horizon humanoid behaviors applicable to real-world.
+I'm interested in Machine Learning, Computer Vision and Robotics, especially for the social behaviors and interactions of embodied agents. I'm currently exploring **Embodied World Models, Continual Learning and AI Agent** to pave my way to general agent learning framework. Specifically, my research focuses on closed-loop visuomotor system that can learn from experiences in the real-world open-ended tasks.
 
-For long-term research goal, I'm seeking unified approch and mathematical framework to model the consistency of self-awareness, which may lies in the combination of embodiment, personal memory and world model.
+For long-term research goal, I'm seeking unified framework to model the consistency of self-consciousness, which may emerge from the accumulation of interactive embodied experiences.
