@@ -3,7 +3,6 @@
    ========================================================================== */
 
 .publication__item {
-  @include clearfix();
   margin-bottom: 2.5em;
   padding-bottom: 2em;
   border-bottom: 1px solid var(--global-border-color);
@@ -12,6 +11,30 @@
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: 0;
+  }
+
+  .archive__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .archive__item-teaser {
+    position: relative;
+    flex-shrink: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: $border-radius;
+      border: 1px solid var(--global-border-color);
+    }
+  }
+
+  .archive__item-body {
+    flex: 1;
+    min-width: 0;
   }
 
   .archive__item-title {
@@ -27,23 +50,18 @@
       }
     }
   }
-}
-
-.publication__teaser {
-  position: relative;
-  margin-bottom: 1em;
-
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: $border-radius;
-    border: 1px solid var(--global-border-color);
-  }
 
   @include breakpoint($small) {
-    @include span(4 of 12);
-    margin-bottom: 0;
+    .archive__item {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+
+    .archive__item-teaser {
+      flex: 0 0 220px;
+      width: 220px;
+    }
   }
 }
 
@@ -51,25 +69,21 @@
   position: absolute;
   top: 0.5em;
   left: 0.5em;
-  z-index: 1;
-  padding: 0.3em 0.65em;
-  color: #fff;
+  z-index: 2;
+  display: inline-block;
+  padding: 0.35em 0.7em;
+  color: #fff !important;
   font-family: $sans-serif;
-  font-size: $type-size-7;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  white-space: nowrap;
   background-color: #2563eb;
-  border-radius: $border-radius;
-  box-shadow: 0 1px 3px rgba(#000, 0.2);
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
   pointer-events: none;
-}
-
-.publication__body {
-  @include breakpoint($small) {
-    @include span(8 of 12 last);
-    @include prefix(0.5 of 12);
-  }
 }
 
 .publication__meta {

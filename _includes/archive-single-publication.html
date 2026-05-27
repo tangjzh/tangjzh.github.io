@@ -13,7 +13,7 @@
 <div class="publication__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
     {% if teaser %}
-      <div class="publication__teaser archive__item-teaser">
+      <div class="archive__item-teaser">
         {% if post.venue_badge or post.venue %}
           <span class="publication__badge">{{ post.venue_badge | default: post.venue }}</span>
         {% endif %}
@@ -27,7 +27,7 @@
       </div>
     {% endif %}
 
-    <div class="publication__body archive__item-body">
+    <div class="archive__item-body">
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.paperurl %}
           <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ title }}</a>
