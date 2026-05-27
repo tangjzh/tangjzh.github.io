@@ -1,0 +1,8 @@
+{% if include.authors %}
+<p class="publication__authors">
+  {% for author in include.authors %}
+    {% if author.me %}
+      <strong class="publication__author--me">{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}<span class="publication__author-sep">, </span>{% endunless %}
+  {% endfor %}
+</p>
+{% endif %}

@@ -36,6 +36,8 @@
         {% endif %}
       </h2>
 
+      {% include publication-authors.html authors=post.authors %}
+
       {% if post.venue %}
         <p class="publication__meta">
           Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}

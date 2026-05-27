@@ -7,6 +7,18 @@ excerpt: 'A self-improving framework (World Action Verifier) that decomposes act
 date: 2026-04-02
 venue: 'ICLR 2026 Workshop on Recursive Self-Improvement (Spotlight)'
 venue_badge: 'ICLR 2026'
+authors:
+  - name: 'Y. Liu'
+  - name: 'L. Kong'
+  - name: 'F. Feng'
+  - name: 'W. Lu'
+  - name: 'J. Tang'
+    me: true
+  - name: 'X. Zhang'
+  - name: 'K. Zhang'
+  - name: 'K. Murphy'
+  - name: 'Y. Du'
+  - name: 'C. Finn'
 paperurl: 'https://arxiv.org/abs/2604.01985'
 header:
   teaser: publications/wav.svg

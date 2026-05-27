@@ -6,6 +6,17 @@ permalink: /publication/2024-10-06-vertfound
 excerpt: 'A framework that merges semantic information from CLIP and spatial features from SAM for fine-grained vertebrae classification, with a vertebral positioning with cross-model synergy module and Wasserstein loss.'
 date: 2024-10-06
 venue: 'MICCAI 2024'
+authors:
+  - name: 'Y. Wu'
+  - name: 'J. Tang'
+    me: true
+  - name: 'Z. Yao'
+  - name: 'M. Li'
+  - name: 'Y. Hong'
+  - name: 'D. Yu'
+  - name: 'Z. Gao'
+  - name: 'B. Chen'
+  - name: 'S. Zhao'
 paperurl: 'https://papers.miccai.org/miccai-2024/paper/3978_paper.pdf'
 header:
   teaser: publications/vertfound.svg
