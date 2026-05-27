@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="World Action Verifier teaser">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#742a2a"/>
+      <stop offset="100%" stop-color="#c53030"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <text x="50%" y="52%" fill="#ffffff" font-family="Georgia, serif" font-size="30" text-anchor="middle">World Action Verifier</text>
+</svg>
