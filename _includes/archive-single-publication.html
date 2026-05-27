@@ -12,49 +12,55 @@
 
 <div class="publication__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/ScholarlyArticle">
-    {% if teaser %}
-      <div class="archive__item-teaser">
-        {% if post.venue_badge or post.venue %}
-          <span class="publication__badge">{{ post.venue_badge | default: post.venue }}</span>
-        {% endif %}
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+    <div class="publication__head">
+      {% if teaser %}
+        <div class="archive__item-teaser">
+          {% if post.venue_badge or post.venue %}
+            <span class="publication__badge">{{ post.venue_badge | default: post.venue }}</span>
           {% endif %}
-          alt="{{ title | strip_html | escape }}">
-      </div>
-    {% endif %}
-
-    <div class="archive__item-body">
-      <h2 class="archive__item-title" itemprop="headline">
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ title }}</a>
-        {% else %}
-          {{ title }}
-        {% endif %}
-      </h2>
-
-      {% include publication-authors.html authors=post.authors %}
-
-      {% if post.venue %}
-        <p class="publication__meta">
-          Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
-        </p>
-      {% endif %}
-
-      {% if post.excerpt %}
-        <p class="archive__item-excerpt publication__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-      {% endif %}
-
-      {% if post.links.size > 0 %}
-        <div class="publication__links">
-          {% for link in post.links %}
-            <a href="{{ link.url }}" class="btn btn--small btn--inverse" target="_blank" rel="noopener">{{ link.label }}</a>
-          {% endfor %}
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="{{ title | strip_html | escape }}">
         </div>
       {% endif %}
+
+      <div class="archive__item-body">
+        <h2 class="archive__item-title" itemprop="headline">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ title }}</a>
+          {% else %}
+            {{ title }}
+          {% endif %}
+        </h2>
+
+        {% include publication-authors.html authors=post.authors %}
+
+        {% if post.venue %}
+          <p class="publication__meta">
+            Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+          </p>
+        {% endif %}
+      </div>
     </div>
+
+    {% if post.excerpt or post.links.size > 0 %}
+      <div class="publication__details">
+        {% if post.excerpt %}
+          <div class="archive__item-excerpt publication__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
+        {% endif %}
+
+        {% if post.links.size > 0 %}
+          <div class="publication__links">
+            {% for link in post.links %}
+              <a href="{{ link.url }}" class="btn btn--small btn--inverse" target="_blank" rel="noopener">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
   </article>
 </div>
