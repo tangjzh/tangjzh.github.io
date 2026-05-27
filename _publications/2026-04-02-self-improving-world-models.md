@@ -21,7 +21,7 @@ authors:
   - name: 'C. Finn'
 paperurl: 'https://arxiv.org/abs/2604.01985'
 header:
-  teaser: publications/wav.svg
+  teaser: publications/wav.png
 links:
   - label: arXiv
     url: https://arxiv.org/abs/2604.01985

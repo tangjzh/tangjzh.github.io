@@ -19,7 +19,7 @@ authors:
   - name: 'S. Zhao'
 paperurl: 'https://papers.miccai.org/miccai-2024/paper/3978_paper.pdf'
 header:
-  teaser: publications/vertfound.svg
+  teaser: publications/vertfound.png
 links:
   - label: Paper
     url: https://papers.miccai.org/miccai-2024/paper/3978_paper.pdf
