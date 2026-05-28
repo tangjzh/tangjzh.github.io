@@ -15,6 +15,11 @@ I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Hu
 
 <!-- <font color="red">I'm looking for research opportunity and internship, please contact me through my </font>[email](mailto:jit027@ucsd.edu). -->
 
+## News
+
+- I will attend CVPR 2026 in Denver, see you soon!
+- I'm co-organizing the Workshop *LAW 2026: Bridging Language, Agent, and World Models for Reasoning and Planning* at NeurIPS 2026.
+
 ## Research Interests
 
 I'm interested in Machine Learning, Computer Vision and Robotics, especially for the social behaviors and interactions of embodied agents. I'm currently exploring **Embodied World Models, Continual Learning and AI Agent** to pave my way to general agent learning framework. Specifically, my research focuses on closed-loop visuomotor system that can learn from experiences in the real-world open-ended tasks.
