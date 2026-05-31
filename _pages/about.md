@@ -17,7 +17,7 @@ I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Hu
 
 ## News
 
-- I will attend CVPR 2026 in Denvor, see you soon!
+- I will attend CVPR 2026 in Denver, see you soon!
 - I'm co-organizing the Workshop *LAW 2026: Bridging Language, Agent, and World Models for Reasoning and Planning* at NeurIPS 2026.
 
 ## Research Interests
