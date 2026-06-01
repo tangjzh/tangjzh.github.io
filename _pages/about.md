@@ -13,7 +13,7 @@ redirect_from:
 
 I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Huang](https://biweihuang.com/) and [Prof. Zhiting Hu](https://zhiting.ucsd.edu/). I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz979.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
 
-<font color="red">I am currently applying for PhD. For any academic or research inquiries, please feel free to contact me via </font>[email](mailto:jit027@ucsd.edu).
+<font color="red">I am currently applying for PhD. For any academic or research inquiries, please feel free to contact me via [email](mailto:jit027@ucsd.edu).</font>
 
 ## News
 
