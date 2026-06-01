@@ -13,12 +13,12 @@ redirect_from:
 
 I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Huang](https://biweihuang.com/) and [Prof. Zhiting Hu](https://zhiting.ucsd.edu/). I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz979.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
 
-<!-- <font color="red">I'm looking for research opportunity and internship, please contact me through my </font>[email](mailto:jit027@ucsd.edu). -->
+<font color="red">I am currently applying for PhD. For any academic or research inquiries, please feel free to contact me via </font>[email](mailto:jit027@ucsd.edu).
 
 ## News
 
 - I will attend CVPR 2026 in Denver, see you soon!
-- I'm co-organizing the Workshop *LAW 2026: Bridging Language, Agent, and World Models for Reasoning and Planning* at NeurIPS 2026.
+- I'm co-organizing the Workshop for Language, Agent, and World Models at NeurIPS 2026.
 
 ## Research Interests
 

@@ -11,8 +11,8 @@ tags:
 > "I want to give Yaya a complete life."  
 > — Hengyu Tu, *The Wandering Earth II*
 >
-> "The past is never dead. It's not even past."  
-> — William Faulkner, *Requiem for a Nun*
+> "Make time for civilization, rather than civilization for time."  
+> — Cixin Liu, *The Three-Body Problem*
 
 Every intelligence has a past.
 
