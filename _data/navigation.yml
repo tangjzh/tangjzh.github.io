@@ -26,7 +26,7 @@ main:
   - title: "CV"
     url: /files/cv.pdf
 
-  - title: "Project"
+  - title: "Projects"
     url: /project/
     
   # - title: "CV"

@@ -1,0 +1,70 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="project__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="project__head">
+      {% if teaser %}
+        <div class="archive__item-teaser project__teaser">
+          {% if post.status_label or post.status %}
+            <span class="project__badge project__badge--{{ post.status | default: 'released' }}">{{ post.status_label | default: post.status }}</span>
+          {% endif %}
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: '/images/' | prepend: base_path }}"
+            {% endif %}
+            alt="{{ title | strip_html | escape }}">
+        </div>
+      {% endif %}
+
+      <div class="archive__item-body">
+        <h2 class="archive__item-title" itemprop="headline">
+          {% if post.links.size > 0 %}
+            <a href="{{ post.links.first.url }}" target="_blank" rel="noopener">{{ title }}</a>
+          {% else %}
+            {{ title }}
+          {% endif %}
+        </h2>
+
+        {% if post.tags.size > 0 %}
+          <ul class="project__tags">
+            {% for tag in post.tags %}
+              <li class="project__tag">{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if post.date %}
+          <p class="project__meta">{{ post.date | date: "%Y" }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if post.excerpt or post.links.size > 0 %}
+      <div class="project__details">
+        {% if post.excerpt %}
+          <div class="archive__item-excerpt project__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
+        {% endif %}
+
+        {% if post.links.size > 0 %}
+          <div class="project__links">
+            {% for link in post.links %}
+              <a href="{{ link.url }}" class="btn btn--small btn--inverse" target="_blank" rel="noopener">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </article>
+</div>
