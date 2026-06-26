@@ -11,7 +11,7 @@ redirect_from:
 >
 > <p align="right">— Le Petit Prince</p>
 
-I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Huang](https://biweihuang.com/) and [Prof. Zhiting Hu](https://zhiting.ucsd.edu/). I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz979.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
+I'm a Master's in Computer Science at UC San Diego co-advised by [Prof. Biwei Huang](https://biweihuang.com/) and [Prof. Hao Su](https://scholar.google.com/citations?user=1P8Zu04AAAAJ&hl=en). I also work closely with [Dr. Fan Feng](https://fan-feng.com/), [Dr. Kun Zhou](https://lancelot39.github.io/) and [Dr. Zhen Wang](https://zhenwang9102.github.io/). I graduated from Sun Yat-Sen University (SYSU), supervised by [Prof. Shen zhao](https://hnyz97://zhiting.ucsd.edu/9.github.io/), [Prof. Keze Wang](https://kezewang.com/) and [Prof. Liang Lin](http://www.linliang.net/). 
 
 <font color="red">I am currently applying for PhD. For any academic or research inquiries, please feel free to contact me via <a href="mailto:jit027@ucsd.edu">email</a>.</font>
 
